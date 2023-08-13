@@ -8,7 +8,7 @@ async function copyText(e) {
     console.log(link)
     try {
         await navigator.clipboard.writeText(link)
-        alert("Copied the link :  " + link+"\nNow you can share my link to your freinds.")
+        alert("Copied the link :  " + link+"\nNow you can share my link to your friends.")
     } catch (err) {
         console.error(err)
     }
